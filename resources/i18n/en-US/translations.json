@@ -1,55 +1,55 @@
 {
     "restore_backup_view": {
-        "title": "Restore backup",
-        "not_found_dialog_hint": "Restore file not found!",
-        "not_found_dialog_text": "To restore, please place your backup file into\n{}\n\nMake sure the backup is valid as it will overwrite the console's partition files and might cause your Switch to stop booting!",
-        "not_found_dialog_btn": "close",
-        "warning": "Restoring this backup WILL overwrite all files!\n(Your saves will be preserved)\n\nMake sure the backup is valid as it will overwrite the console's partition files and might cause your Switch to stop booting!",
-        "working": "Restoring...",
-        "complete": "Backup restored!"
+        "title": "Sicherung wiederherstellen",
+        "not_found_dialog_hint": "Wiederherstellungsdatei nicht gefunden!",
+        "not_found_dialog_text": "Zum Wiederherstellen lege die Sicherungsdatei in\n{}\n\nStelle sicher, dass das Backup gültig ist, da es die Partitionsdateien der Konsole überschreibt und dazu führen kann, dass die Switch nicht mehr startet!",
+        "not_found_dialog_btn": "Schließen",
+        "warning": "Das Wiederherstellen dieses Backups überschreibt alle Dateien! (Deine Speicherstände bleiben erhalten)\n\nStelle sicher, dass das Backup gültig ist, da es die Partitionsdateien der Konsole überschreibt und dazu führen kann, dass die Switch nicht mehr startet!",
+        "working": "Wiederherstellen...",
+        "complete": "Sicherung wiederhergestellt!"
     },
     "create_backup_view": {
-        "title": "Create manual backup",
-        "warning": "All linking and unlinking operations will produce a backup before making changes!\n\nYou should only use this option if you want to manually create a backup.",
-        "working": "Backing up...",
-        "complete": "Backup created!"
+        "title": "Manuelle Sicherung erstellen",
+        "warning": "Bei allen Verlinkungs- und Aufhebungsvorgängen wird ein Backup erstellt, bevor Änderungen vorgenommen werden!\n\nDu solltest die Option nur verwenden, wenn du manuell ein Backup erstellen möchtest.",
+        "working": "wird gesichert...",
+        "complete": "Sicherungsdatei erstellt!"
     },
     "link_accounts_view": {
-        "title": "Link selected accounts",
-        "warning": "Linking accounts will overwrite all previous links.\n(Your saves will be preserved)\n\nIf any of the selected accounts had a NNID link, it will be overwritten!",
-        "working": "Linking...",
-        "complete": "Accounts linked!"
+        "title": "Ausgewählte Konten verknüpfen",
+        "warning": "Durch das Verknüpfen von Konten werden alle vorherigen Verknüpfungen überschrieben. (Deine Speicherstände bleiben erhalten)\n\nWenn eines der ausgewählten Konten eine NNID-Verknüpfung hatte, wird diese überschrieben!",
+        "working": "Verknüpfen...",
+        "complete": "Konten wurden verknüpft!"
     },
     "unlink_accounts_view": {
-        "title": "Unlink selected accounts",
-        "warning": "Unlinking will change users accounts.\n(Your saves will be preserved)\n\nIf any of the selected accounts had a NNID link, it will be erased!",
-        "working": "Uninking...",
-        "complete": "Accounts unlinked!"
+        "title": "Verknüpfung ausgewählter Konten aufheben",
+        "warning": "Durch das Aufheben der Verlinkung werden die Benutzerkonten geändert.\n(Deine Speicherstände bleiben erhalten)\n\nWenn eines der ausgewählten Konten eine NNID-Verknüpfung hatte, wird diese gelöscht!",
+        "working": "Wird getrennt...",
+        "complete": " Verknüpfung der Konten aufgehoben!"
     },
     "country_select_view": {
-        "title": "Select country for linked accounts"
+        "title": "Land für verknüpfte Konten wählen"
     },
     "account_select_view": {
-        "title": "Select accounts to link/unlink",
-        "select_all": "Select all",
-        "unselect_all": "Unselect all",
-        "selected_count": "{}/{} selected",
-        "extra_info": "Found {} account{}\nReboot to payload {}",
-        "reboot_payload_disabled": "disabled",
-        "reboot_payload_inactive": "inactive ({} not found)",
-        "reboot_payload_active": "active"
+        "title": "Zu verknüpfende/zu trennende Konten auswählen",
+        "select_all": "Alles auswählen",
+        "unselect_all": "Alles abwählen",
+        "selected_count": "{}/{} ausgewählt",
+        "extra_info": "Gefunden {} Konto{}\nNeustart zu payload {}",
+        "reboot_payload_disabled": "deaktiviert",
+        "reboot_payload_inactive": "inaktiv ({} nicht gefunden)",
+        "reboot_payload_active": "aktiv"
     },
     "account_list_item": {
-        "linked": "Linked",
-        "not_linked": "Not linked"
+        "linked": "Verknüpft",
+        "not_linked": "Nicht verknüpft"
     },
     "confirm_view": {
-        "continue": "Continue",
-        "back": "Back",
-        "reboot": "Reboot",
-        "reboot_to_payload": "Reboot to payload"
+        "continue": "Weiter",
+        "back": "Zurück",
+        "reboot": "Neustart",
+        "reboot_to_payload": "Neustart zu payload"
     },
     "errors": {
-        "no_accounts_selected": "No accounts selected!"
+        "no_accounts_selected": "Keine Konten ausgewählt!"
     }
 }
