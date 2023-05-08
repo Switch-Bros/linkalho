@@ -1,8 +1,8 @@
 {
     "hints": {
         "ok": "OK",
-        "back": "Zurück",
-        "exit": "Beenden"
+        "back": "Back",
+        "exit": "Exit"
     },
 
     "crash_frame": {
@@ -10,6 +10,6 @@
     },
 
     "thumbnail_sidebar": {
-        "save": "Speichern"
+        "save": "Save"
     }
 }
