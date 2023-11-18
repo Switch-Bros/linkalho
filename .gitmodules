@@ -3,4 +3,4 @@
 	url = https://github.com/rdmrocha/zipper.git
 [submodule "lib/borealis"]
 	path = lib/borealis
-	url = https://github.com/Switch-Bros/borealis.git
+	url = https://github.com/rdmrocha/borealis.git
