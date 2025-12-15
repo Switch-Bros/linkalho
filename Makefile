@@ -43,9 +43,9 @@ DATA		:=	data
 INCLUDES	:=	include lib/zipper/include
 APP_TITLE   :=  Linkalho
 APP_AUTHOR  :=  rrocha
-APP_VERSION :=  2.1.0
+APP_VERSION :=  2.0.2
 TARGET		:=	$(shell echo $(APP_TITLE) | tr A-Z a-z)
-ROMFS				:=	resources
+ROMFS		:=	resources
 BOREALIS_PATH		:=	lib/borealis
 BOREALIS_RESOURCES	:=	romfs:/
 
