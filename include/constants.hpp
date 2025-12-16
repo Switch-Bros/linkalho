@@ -15,7 +15,7 @@
 #define CUSTOM_PAYLOAD_FILE "reboot.bin"
 #define CUSTOM_PAYLOAD_FILE_PATH LOCAL_PATH CUSTOM_PAYLOAD_FILE
 
-#define DEFAULT_COUNTRY "Portugal"
-#define DEFAULT_COUNTRY_CODE "PT"
+#define DEFAULT_COUNTRY "Germany"
+#define DEFAULT_COUNTRY_CODE "DE"
 #define DEFAULT_LOCALE "en-US"
-#define DEFAULT_TIMEZONE "Europe/Lisbon"
+#define DEFAULT_TIMEZONE "Europe/Berlin"
